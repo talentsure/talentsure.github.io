@@ -1,14 +1,4 @@
-/* --------------------------------------------------------
-Style Sheet for LumiDex Landing Page
-
-version: 1.0
-last modified: 26-01-2020 by Aromal Anil
-author: Aromal Anil
-github: github.com/aromalanil
-----------------------------------------------------------*/
-
 /* Custom Loader */
-
 .loader {
     position: fixed;
     top: 0;
@@ -40,9 +30,6 @@ github: github.com/aromalanil
         transform: rotate(360deg);
     }
 }
-
-
-
 
 
 /* General Customization */

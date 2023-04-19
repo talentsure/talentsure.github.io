@@ -1,498 +1,385 @@
-<!-- Author : Aromal Anil -->
-<!-- Starting Date : 23-01-2020 07:00PM IST -->
-<!-- Finished Date : 26-01-2020 12.00PM IST -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>TalentSure</title>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+  <title>TalentSure</title>
 
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/img/icons/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/img/icons/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/img/icons/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/img/icons/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/img/icons/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/img/icons/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/img/icons/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/img/icons/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/img/icons/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="/img/icons/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/img/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="/img/icons/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/img/icons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="/img/icons/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Poppins Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Slick Slider -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/icons/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
 
-  <body>
-    <div class="loader">
-      <img src="/img/icons/logo.png" alt="" class="loader_img" />
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet" />
+  <!-- Slick Slider -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="loader">
+    <img src="/img/icons/logo.png" alt="" class="loader_img" />
+  </div>
+
+  <!-- Navigation Bar -->
+
+  <header>
+    <div class="logo" onclick="window.location.href = '#';">
+      <img src="/img/icons/logo.png" alt="Logo" />
     </div>
 
-    <!-- Navigation Bar -->
+    <nav class="nav-div">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#service">Services</a></li>
+        <li><a class="nav-link" href="#benefits">Benefits</a></li>
+        <li><a class="nav-link" href="#review">Review</a></li>
+        <li><a class="nav-link" href="#membership">Membership</a></li>
+      </ul>
+    </nav>
 
-    <header>
-      <div class="logo" onclick="window.location.href = '#';">
-        <img src="/img/icons/logo.png" alt="Logo" />
+    <div class="menu">
+      <img src="./img/icons/menu.svg" alt="" class="menu-icon" id="menu" />
+    </div>
+  </header>
+
+  <!-- Navigation Bar Ends -->
+
+  <!-- Whole Content Of Website -->
+  <div class="content" id="content">
+    <!-- Main Section -->
+
+    <main id="main">
+      <div class="main-img">
+        <img id="hero-image" src="./img/illustrations/hero-image.svg" alt="" />
       </div>
 
-      <nav class="nav-div">
-        <ul class="nav-links">
-          <li><a class="nav-link" href="#">Home</a></li>
-          <li><a class="nav-link" href="#service">Services</a></li>
-          <li><a class="nav-link" href="#benefits">Benefits</a></li>
-          <li><a class="nav-link" href="#review">Review</a></li>
-          <li><a class="nav-link" href="#membership">Membership</a></li>
-        </ul>
-      </nav>
-
-      <div class="menu">
-        <img src="./img/icons/menu.svg" alt="" class="menu-icon" id="menu" />
+      <div class="main-content">
+        <h1>
+          We will help <br />
+          you to build <br />
+          your business.
+        </h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et dolor
+          perferendis odio, assumenda harum cumque?
+        </p>
+        <div class="btn-grp">
+          <button class="primary-btn" onclick="window.location.href = '#';">
+            Apply Now
+          </button>
+          <button class="secondary-btn" onclick="window.location.href = '#';">
+            Know More
+          </button>
+        </div>
+        <p id="question">
+          Elit ullamcorper dignissim cras tincidunt lobortis? &nbsp; &nbsp;
+          <a href="">Feugiat vivamus at</a>
+        </p>
       </div>
-    </header>
+    </main>
 
-    <!-- Navigation Bar Ends -->
+    <!-- Main Section Ends -->
 
-    <!-- Whole Content Of Website -->
-    <div class="content" id="content">
-      <!-- Main Section -->
+    <!-- Companies Section -->
 
-      <main id="main">
-        <div class="main-img">
-          <img
-            id="hero-image"
-            src="./img/illustrations/hero-image.svg"
-            alt=""
-          />
+    <section class="companies">
+      <p>We are trusted by these world class companies</p>
+
+      <div class="company-collections">
+        <img src="./img/companies/Google_Logo.svg" alt="google" class="company-logo" />
+        <img src="./img/companies/Sony_logo.svg" alt="sony" class="company-logo" />
+        <img src="./img/companies/Coca-Cola_logo.svg" id="coco-cola" alt="coco-cola" class="company-logo" />
+        <img src="./img/companies/Samsung_Logo.svg" alt="samsung" class="company-logo" />
+        <img src="./img/companies/Microsoft_logo.svg" alt="microsoft" class="company-logo" />
+      </div>
+    </section>
+
+    <!-- Companies Section Ends-->
+
+    <!-- Showcase Section -->
+    <div id="service">
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">Consultants through Video Conferance</h3>
+          <br /><br />
+          <p class="block-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            dolorem corporis voluptatem minus, facilis nisi optio sed enim
+            doloribus maiores voluptas provident nihil ipsa rem.
+          </p>
+          <br />
+          <a href="#" class="block-link">Take a look at this demo</a>
         </div>
 
-        <div class="main-content">
-          <h1>
-            We will help <br />
-            you to build <br />
-            your business.
-          </h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et dolor
-            perferendis odio, assumenda harum cumque?
-          </p>
-          <div class="btn-grp">
-            <button class="primary-btn" onclick="window.location.href = '#';">
-              Apply Now
-            </button>
-            <button class="secondary-btn" onclick="window.location.href = '#';">
-              Know More
-            </button>
-          </div>
-          <p id="question">
-            Elit ullamcorper dignissim cras tincidunt lobortis? &nbsp; &nbsp;
-            <a href="">Feugiat vivamus at</a>
-          </p>
-        </div>
-      </main>
-
-      <!-- Main Section Ends -->
-
-      <!-- Companies Section -->
-
-      <section class="companies">
-        <p>We are trusted by these world class companies</p>
-
-        <div class="company-collections">
-          <img
-            src="./img/companies/Google_Logo.svg"
-            alt="google"
-            class="company-logo"
-          />
-          <img
-            src="./img/companies/Sony_logo.svg"
-            alt="sony"
-            class="company-logo"
-          />
-          <img
-            src="./img/companies/Coca-Cola_logo.svg"
-            id="coco-cola"
-            alt="coco-cola"
-            class="company-logo"
-          />
-          <img
-            src="./img/companies/Samsung_Logo.svg"
-            alt="samsung"
-            class="company-logo"
-          />
-          <img
-            src="./img/companies/Microsoft_logo.svg"
-            alt="microsoft"
-            class="company-logo"
-          />
+        <div class="block-img">
+          <img src="./img/illustrations/video_call.svg" alt="" />
         </div>
       </section>
 
-      <!-- Companies Section Ends-->
-
-      <!-- Showcase Section -->
-      <div id="service">
-        <section class="block block-left">
-          <div class="block-content-left">
-            <h3 class="block-heading">Consultants through Video Conferance</h3>
-            <br /><br />
-            <p class="block-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              dolorem corporis voluptatem minus, facilis nisi optio sed enim
-              doloribus maiores voluptas provident nihil ipsa rem.
-            </p>
-            <br />
-            <a href="#" class="block-link">Take a look at this demo</a>
-          </div>
-
-          <div class="block-img">
-            <img src="./img/illustrations/video_call.svg" alt="" />
-          </div>
-        </section>
-
-        <section class="block">
-          <div class="block-img">
-            <img src="./img/illustrations/invest.svg" alt="" />
-          </div>
-          <div class="block-content-right">
-            <h3 class="block-heading">Secured Investment Assurance</h3>
-            <br /><br />
-            <p class="block-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              numquam, non aperiam maxime fugit expedita omnis consectetur vero
-              commodi libero voluptatibus voluptatem cumque doloremque culpa!
-            </p>
-            <br />
-            <a href="#" class="block-link"
-              >See what we do with your investments</a
-            >
-          </div>
-        </section>
-
-        <!-- A Breaker Content for Showcase -->
-
-        <div class="breaker">
-          <h2>We guide you through every process : From start to finish</h2>
+      <section class="block">
+        <div class="block-img">
+          <img src="./img/illustrations/invest.svg" alt="" />
+        </div>
+        <div class="block-content-right">
+          <h3 class="block-heading">Secured Investment Assurance</h3>
+          <br /><br />
+          <p class="block-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            numquam, non aperiam maxime fugit expedita omnis consectetur vero
+            commodi libero voluptatibus voluptatem cumque doloremque culpa!
+          </p>
           <br />
-          <p>
-            If LumiDex was a real company, they would have done it for sure, but
-            unfortunately this is just a demo.
+          <a href="#" class="block-link">See what we do with your investments</a>
+        </div>
+      </section>
+
+      <!-- A Breaker Content for Showcase -->
+
+      <div class="breaker">
+        <h2>We guide you through every process : From start to finish</h2>
+        <br />
+        <p>
+          If LumiDex was a real company, they would have done it for sure, but
+          unfortunately this is just a demo.
+        </p>
+      </div>
+
+      <!-- A Breaker Content for Showcase Ends-->
+
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">No More Paperworks</h3>
+          <br /><br />
+          <p class="block-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            laudantium reiciendis facilis amet! Minus vel fugit deserunt, eius
+            maxime ducimus?
+          </p>
+          <br />
+        </div>
+
+        <div class="block-img">
+          <img src="./img/illustrations/paperwork.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="block-img">
+          <img src="./img/illustrations/consulting.svg" alt="" />
+        </div>
+        <div class="block-content-right">
+          <h3 class="block-heading">A Personal Consultant For You</h3>
+          <br /><br />
+          <p class="block-para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
+            nobis impedit corrupti sint alias unde esse necessitatibus
+            perferendis. Nobis, laboriosam distinctio.
+          </p>
+          <br />
+        </div>
+      </section>
+
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">24 x 7 Share Monitoring</h3>
+          <br /><br />
+          <p class="block-para">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
+            recusandae dolorem commodi voluptate magni necessitatibus, facilis
+            perspiciatis repellendus.
+          </p>
+          <br />
+        </div>
+
+        <div class="block-img">
+          <img src="./img/illustrations/monitoring.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="block-img">
+          <img src="./img/illustrations/community-meetings.svg" alt="" />
+        </div>
+        <div class="block-content-right">
+          <h3 class="block-heading">Enjoy your free time</h3>
+          <br /><br />
+          <p class="block-para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+            quibusdam voluptates aspernatur dolore, magnam labore earum
+            tempore autem minus velit.
+          </p>
+          <br />
+        </div>
+      </section>
+
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">Best Plans That Fits You</h3>
+          <br /><br />
+          <p class="block-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            ullam eum, aut nesciunt quod provident sint obcaecati molestiae
+            rerum minima eos ducimus officia id non!
+          </p>
+          <br />
+        </div>
+
+        <div class="block-img">
+          <img src="./img/illustrations/planning.svg" alt="" />
+        </div>
+      </section>
+    </div>
+
+    <!-- Showcase Section Ends -->
+
+    <!-- Who is this for Section -->
+    <div id="benefits">
+      <div class="who-is-this">
+        <h2>What do you get ?</h2>
+        <br />
+        <p>
+          LumiDex is an imaginary company, it does not offer any services, The
+          following are some imaginary services that could have been offered
+          by LumiDex:
+        </p>
+        <ul>
+          <li>☑️ What should I write here?</li>
+          <li>☑️ This service is offered by the company For sure !</li>
+          <li>☑️ But, what was the above service ?. Ah! what to do now.</li>
+          <li>
+            ☑️ Sometimes I imagine some weird things, like 'What if LumiDex
+            really existed?'
+          </li>
+          <li>
+            ☑️ This really scares me. But I am sure that LumiDex don't exist,
+            I just did a google search.
+          </li>
+          <li>
+            ☑️ Yeah ! You don't exist if you can't be found by a google search
+          </li>
+          <li>☑️ I was just kidding, don't take that seriously.</li>
+        </ul>
+
+        <p>
+          This website was made for demo purpose, it is not assosiated with
+          any real brands. The email id given below does not exist :<br />
+          contact@lumidex.is.not.real
+        </p>
+      </div>
+    </div>
+
+    <!-- Who is this for Section -->
+
+    <!-- Testimonial Slider -->
+    <div id="review">
+      <section class="slider">
+        <div class="slider-item">
+          <div class="slider-img-div">
+            <img src="./img/customers/customer-1.jpeg" alt="" class="slider-img" />
+            <h3 class="customer-name">Charles Jay</h3>
+            <p class="customer-title"><i>Imaginary Customer : LumiDex</i></p>
+          </div>
+          <p class="slider-text">
+            Lumidex is a great company, eventhough it dosent't actually exist.
+            I don't want to say any further. So, Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Illo quia libero aut asperiores
+            nulla, placeat cupiditate consequuntur nam incidunt accusantium.
           </p>
         </div>
 
-        <!-- A Breaker Content for Showcase Ends-->
-
-        <section class="block block-left">
-          <div class="block-content-left">
-            <h3 class="block-heading">No More Paperworks</h3>
-            <br /><br />
-            <p class="block-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              laudantium reiciendis facilis amet! Minus vel fugit deserunt, eius
-              maxime ducimus?
+        <div class="slider-item">
+          <div class="slider-img-div">
+            <img src="./img/customers/customer-2.jpg" alt="" class="slider-img" />
+            <h3 class="customer-name">Dian Hugary</h3>
+            <p class="customer-title">
+              <i>Looks like a Proffesional</i>
             </p>
-            <br />
           </div>
-
-          <div class="block-img">
-            <img src="./img/illustrations/paperwork.svg" alt="" />
-          </div>
-        </section>
-
-        <section class="block">
-          <div class="block-img">
-            <img src="./img/illustrations/consulting.svg" alt="" />
-          </div>
-          <div class="block-content-right">
-            <h3 class="block-heading">A Personal Consultant For You</h3>
-            <br /><br />
-            <p class="block-para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
-              nobis impedit corrupti sint alias unde esse necessitatibus
-              perferendis. Nobis, laboriosam distinctio.
-            </p>
-            <br />
-          </div>
-        </section>
-
-        <section class="block block-left">
-          <div class="block-content-left">
-            <h3 class="block-heading">24 x 7 Share Monitoring</h3>
-            <br /><br />
-            <p class="block-para">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
-              recusandae dolorem commodi voluptate magni necessitatibus, facilis
-              perspiciatis repellendus.
-            </p>
-            <br />
-          </div>
-
-          <div class="block-img">
-            <img src="./img/illustrations/monitoring.svg" alt="" />
-          </div>
-        </section>
-
-        <section class="block">
-          <div class="block-img">
-            <img src="./img/illustrations/community-meetings.svg" alt="" />
-          </div>
-          <div class="block-content-right">
-            <h3 class="block-heading">Enjoy your free time</h3>
-            <br /><br />
-            <p class="block-para">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              quibusdam voluptates aspernatur dolore, magnam labore earum
-              tempore autem minus velit.
-            </p>
-            <br />
-          </div>
-        </section>
-
-        <section class="block block-left">
-          <div class="block-content-left">
-            <h3 class="block-heading">Best Plans That Fits You</h3>
-            <br /><br />
-            <p class="block-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-              ullam eum, aut nesciunt quod provident sint obcaecati molestiae
-              rerum minima eos ducimus officia id non!
-            </p>
-            <br />
-          </div>
-
-          <div class="block-img">
-            <img src="./img/illustrations/planning.svg" alt="" />
-          </div>
-        </section>
-      </div>
-
-      <!-- Showcase Section Ends -->
-
-      <!-- Who is this for Section -->
-      <div id="benefits">
-        <div class="who-is-this">
-          <h2>What do you get ?</h2>
-          <br />
-          <p>
-            LumiDex is an imaginary company, it does not offer any services, The
-            following are some imaginary services that could have been offered
-            by LumiDex:
-          </p>
-          <ul>
-            <li>☑️ What should I write here?</li>
-            <li>☑️ This service is offered by the company For sure !</li>
-            <li>☑️ But, what was the above service ?. Ah! what to do now.</li>
-            <li>
-              ☑️ Sometimes I imagine some weird things, like 'What if LumiDex
-              really existed?'
-            </li>
-            <li>
-              ☑️ This really scares me. But I am sure that LumiDex don't exist,
-              I just did a google search.
-            </li>
-            <li>
-              ☑️ Yeah ! You don't exist if you can't be found by a google search
-            </li>
-            <li>☑️ I was just kidding, don't take that seriously.</li>
-          </ul>
-
-          <p>
-            This website was made for demo purpose, it is not assosiated with
-            any real brands. The email id given below does not exist :<br />
-            contact@lumidex.is.not.real
+          <p class="slider-text">
+            I found this image from a stock photo website, I thought he would
+            be perfect to be a proffesional customer. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Magni, repellat optio unde vel
+            exercitationem quod libero voluptatum et eius laboriosam.
           </p>
         </div>
-      </div>
 
-      <!-- Who is this for Section -->
-
-      <!-- Testimonial Slider -->
-      <div id="review">
-        <section class="slider">
-          <div class="slider-item">
-            <div class="slider-img-div">
-              <img
-                src="./img/customers/customer-1.jpeg"
-                alt=""
-                class="slider-img"
-              />
-              <h3 class="customer-name">Charles Jay</h3>
-              <p class="customer-title"><i>Imaginary Customer : LumiDex</i></p>
-            </div>
-            <p class="slider-text">
-              Lumidex is a great company, eventhough it dosent't actually exist.
-              I don't want to say any further. So, Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Illo quia libero aut asperiores
-              nulla, placeat cupiditate consequuntur nam incidunt accusantium.
+        <div class="slider-item">
+          <div class="slider-img-div">
+            <img src="./img/customers/customer-3.jpg" alt="" class="slider-img" />
+            <h3 class="customer-name">Sheena Driana</h3>
+            <p class="customer-title">
+              <i>A Student I guess</i>
             </p>
           </div>
-
-          <div class="slider-item">
-            <div class="slider-img-div">
-              <img
-                src="./img/customers/customer-2.jpg"
-                alt=""
-                class="slider-img"
-              />
-              <h3 class="customer-name">Dian Hugary</h3>
-              <p class="customer-title">
-                <i>Looks like a Proffesional</i>
-              </p>
-            </div>
-            <p class="slider-text">
-              I found this image from a stock photo website, I thought he would
-              be perfect to be a proffesional customer. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Magni, repellat optio unde vel
-              exercitationem quod libero voluptatum et eius laboriosam.
-            </p>
-          </div>
-
-          <div class="slider-item">
-            <div class="slider-img-div">
-              <img
-                src="./img/customers/customer-3.jpg"
-                alt=""
-                class="slider-img"
-              />
-              <h3 class="customer-name">Sheena Driana</h3>
-              <p class="customer-title">
-                <i>A Student I guess</i>
-              </p>
-            </div>
-            <p class="slider-text">
-              I am a student for sure, because I was found when the creator of
-              this website searched for a student stock image. But what roll do
-              a student serve in a bussiness consultancy company, and Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
-              incidunt.
-            </p>
-          </div>
-        </section>
-      </div>
-
-      <!-- Testimonial Slider Ends -->
+          <p class="slider-text">
+            I am a student for sure, because I was found when the creator of
+            this website searched for a student stock image. But what roll do
+            a student serve in a bussiness consultancy company, and Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+            incidunt.
+          </p>
+        </div>
+      </section>
     </div>
-    <!-- Whole Content of Website Ends -->
 
-    <!-- Call For Action Section -->
+    <!-- Testimonial Slider Ends -->
+  </div>
+  <!-- Whole Content of Website Ends -->
 
-    <div class="call-for" id="membership">
-      <div class="inner-call">
-        <p>Buy Basic Membership plan</p>
-        <button class="call-btn" onclick="window.location.href = '#';">
-          Basic Membership
-        </button>
-      </div>
+  <!-- Call For Action Section -->
 
-      <div class="inner-call">
-        <p>Purchase premium membership.</p>
-        <button class="call-btn" onclick="window.location.href = '#';">
-          Premium Membership
-        </button>
-      </div>
+  <div class="call-for" id="membership">
+    <div class="inner-call">
+      <p>Buy Basic Membership plan</p>
+      <button class="call-btn" onclick="window.location.href = '#';">
+        Basic Membership
+      </button>
     </div>
-    <!-- Call For Action Section Ends -->
 
-    <!-- Footer -->
+    <div class="inner-call">
+      <p>Purchase premium membership.</p>
+      <button class="call-btn" onclick="window.location.href = '#';">
+        Premium Membership
+      </button>
+    </div>
+  </div>
+  <!-- Call For Action Section Ends -->
 
-    <footer>
-      <p>Made with ❤️ in 🇮🇳</p>
-    </footer>
+  <!-- Footer -->
 
-    <!-- Footer Ends -->
+  <footer>
+    <p>Made with ❤️ in 🇮🇳</p>
+  </footer>
 
-    <!-- Linking Slick for Testimonial Slider -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <!-- Linking Custom Javascript -->
-    <script src="./script.js"></script>
-  </body>
+  <!-- Footer Ends -->
+
+  <!-- Linking Slick for Testimonial Slider -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Linking Custom Javascript -->
+  <script src="./script.js"></script>
+</body>
+
 </html>
