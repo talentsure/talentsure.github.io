@@ -1,13 +1,5 @@
 
 $(() => {
-
-
-    //To remove Loader on page load
-    $(window).load(() => {
-        $('.loader').fadeOut('fast');
-    })
-
-
     //NavBar Drop Shadow on scroll
     $(window).scroll(function () {
         if ($(window).scrollTop() > 10) {
@@ -16,7 +8,6 @@ $(() => {
             $('header').removeClass('floatingNav');
         }
     });
-
 
     // Menu bar for Mobile
     $('#menu').click(() => {
@@ -39,8 +30,6 @@ $(() => {
         }
     })
 
-
-
     //Testimonial Slider
     $('.slider').slick({
 
@@ -49,5 +38,4 @@ $(() => {
         autoplay: true,
         autoplaySpeed: 7000,
     });
-
 })
