@@ -1,20 +1,15 @@
-/**
- * @author Aromal Anil <github.com/aromalanil>
- */
 
-
-$(document).ready(() => {
-
+$(() => {
 
 
     //To remove Loader on page load
-    $(window).on('load', () => {
+    $(window).load(() => {
         $('.loader').fadeOut('fast');
     })
 
 
     //NavBar Drop Shadow on scroll
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(window).scrollTop() > 10) {
             $('header').addClass('floatingNav');
         } else {
@@ -56,7 +51,3 @@ $(document).ready(() => {
     });
 
 })
-
-// Easter Egg
-
-console.log('%c🥚\n%cHey! you found the easter egg🥳','font-size:100px','font-size:30px');
