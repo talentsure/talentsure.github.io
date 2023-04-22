@@ -1,0 +1,17 @@
+{
+  "name": "talentsure.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "homepage": "https://github.com/talentsure/talentsure.github.io",
+  "scripts": {
+    "start": "live-server",
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^2.8.7"
+  }
+}
