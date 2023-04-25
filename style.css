@@ -430,6 +430,10 @@ footer a {
   text-decoration: none;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1152px) {
   .content {
     width: 90vw;
