@@ -1,312 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>TalentSure</title>
 
-<head>
-  <title>TalentSure</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="We offer software consultancy services using top technologies for high-performing websites, user-friendly mobile apps, and robust APIs. Contact us to bring your vision to life!"
+    />
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description"
-    content="We offer software consultancy services using top technologies for high-performing websites, user-friendly mobile apps, and robust APIs. Contact us to bring your vision to life!" />
+    <meta property="og:url" content="https://talentsure.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TalentSure" />
+    <meta
+      property="og:description"
+      content="We offer software consultancy services using top technologies for high-performing websites, user-friendly mobile apps, and robust APIs. Contact us to bring your vision to life!"
+    />
+    <meta
+      property="og:image"
+      content="https://talentsure.github.io/img/icons/logo-banner.png"
+    />
+    <meta property="og:image:width" content="1784" />
+    <meta property="og:image:height" content="1306" />
 
-  <meta property="og:url" content="https://talentsure.github.io" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="TalentSure" />
-  <meta property="og:description"
-    content="We offer software consultancy services using top technologies for high-performing websites, user-friendly mobile apps, and robust APIs. Contact us to bring your vision to life!" />
-  <meta property="og:image" content="https://talentsure.github.io/img/icons/logo-banner.png" />
-  <meta property="og:image:width" content="1784" />
-  <meta property="og:image:height" content="1306" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="talentsure.github.io" />
+    <meta property="twitter:url" content="https://talentsure.github.io" />
+    <meta name="twitter:title" content="TalentSure" />
+    <meta
+      name="twitter:description"
+      content="We offer software consultancy services using top technologies for high-performing websites, user-friendly mobile apps, and robust APIs. Contact us to bring your vision to life!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://talentsure.github.io/img/icons/logo-banner.png"
+    />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="talentsure.github.io" />
-  <meta property="twitter:url" content="https://talentsure.github.io" />
-  <meta name="twitter:title" content="TalentSure" />
-  <meta name="twitter:description"
-    content="We offer software consultancy services using top technologies for high-performing websites, user-friendly mobile apps, and robust APIs. Contact us to bring your vision to life!" />
-  <meta name="twitter:image" content="https://talentsure.github.io/img/icons/logo-banner.png" />
+    <meta name="robots" content="index,follow" />
 
-  <meta name="robots" content="index,follow" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/img/icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/img/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/img/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/img/icons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/img/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/img/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/img/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/img/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/img/icons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/img/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="/img/icons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/img/icons/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png" />
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <!-- Poppins Font -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet" />
-  <!-- Slick Slider -->
-  <!-- <link
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Poppins Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Slick Slider -->
+    <!-- <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     /> -->
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css" />
-</head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-  <!-- Navigation Bar -->
+  <body>
+    <!-- Navigation Bar -->
 
-  <header>
-    <a class="logo" href="/">
-      <img src="/img/icons/logo.png" alt="Logo" />
-    </a>
+    <header>
+      <a class="logo" href="/">
+        <img src="/img/icons/logo.png" alt="Logo" />
+      </a>
 
-    <nav class="nav-div">
-      <ul class="nav-links">
-        <li><a class="nav-link" href="#services">Services</a></li>
-        <li><a class="nav-link" href="#showcase">Our Showcase</a></li>
-        <li><a class="nav-link" href="#technologies">Technologies</a></li>
-        <li><a class="nav-link" href="#contact">Contact us</a></li>
-      </ul>
-    </nav>
-
-    <div class="menu">
-      <img src="./img/icons/menu.svg" alt="" class="menu-icon" id="menu" />
-    </div>
-  </header>
-
-  <!-- Navigation Bar Ends -->
-
-  <!-- Whole Content Of Website -->
-  <div class="content" id="content">
-    <!-- Main Section -->
-
-    <main id="main">
-      <div class="main-img">
-        <img id="hero-image" src="./img/illustrations/hero-image.svg" alt="" />
-      </div>
-
-      <div class="main-content">
-        <h1>
-          We will help <br />
-          you to build <br />
-          your business.
-        </h1>
-        <p>From idea to execution, we're with you.</p>
-        <div class="btn-grp">
-          <a class="primary-btn" href="#contact"> Contact us </a>
-          <a class="secondary-btn" href="#services"> Know More </a>
-        </div>
-      </div>
-    </main>
-
-    <div id="services">
-      <section class="block block-left">
-        <div class="block-content-left">
-          <h3 class="block-heading">Web app development</h3>
-          <br />
-          <p class="block-para">
-            We use top technologies to create a high-performing website for
-            your product. Our team provides frequent demos, enabling us to
-            swiftly incorporate your feedback and iterate. This guarantees a
-            customized product that meets your requirements
-          </p>
-        </div>
-        <br />
-        <div class="block-img">
-          <img src="./img/illustrations/video_call.svg" alt="" />
-        </div>
-      </section>
-
-      <section class="block">
-        <div class="block-img">
-          <img src="./img/illustrations/invest.svg" alt="" />
-        </div>
-        <br />
-        <div class="block-content-right">
-          <h3 class="block-heading">Mobile app development</h3>
-          <br />
-          <p class="block-para">
-            With our expertise in native and cross-platform development, we
-            create user-friendly apps that delight your customers. Let us
-            bring your vision to life with our mobile app development services
-          </p>
-        </div>
-      </section>
-
-      <section class="block block-left">
-        <div class="block-content-left">
-          <h3 class="block-heading">API development</h3>
-          <br />
-          <p class="block-para">
-            We specialize in developing robust and reliable APIs for
-            businesses of all sizes. Let us help you create a secure and
-            scalable API tailored to your business needs.
-          </p>
-        </div>
-        <br />
-        <div class="block-img">
-          <img src="./img/illustrations/video_call.svg" alt="" />
-        </div>
-      </section>
-
-      <div id="showcase" class="breaker">
-        <h2>Our Showcase</h2>
-        <br />
-        <p>A Selection of Our Finest Work</p>
-      </div>
-
-      <section class="block block-left">
-        <div class="block-content-left">
-          <a href="https://opendevs.in" rel="nofollow noopener" class="no-underline" target="_blank">
-            <h3 class="block-heading">opendevs</h3>
-          </a>
-          <br />
-          <p class="block-para">
-            opendevs is your one stop solution to excel in the latest, most demanding web technologies and be an
-            industry-ready
-            programmer. At opendevs, you learn from a well-crafted & structured curriculum, practice problems to
-            strengthen your
-            coding skills, interview with people from top-notch companies, get premium support from TAs and 1:1
-            mentorship.
-          </p>
-        </div>
-        <br />
-        <div class="block-img">
-          <img src="./img/illustrations/paperwork.svg" alt="opendevs project image" />
-        </div>
-      </section>
-
-      <section class="block">
-        <div class="block-img">
-          <img src="./img/illustrations/consulting.svg" alt="" />
-        </div>
-        <br />
-        <div class="block-content-right">
-          <a href="https://opendevs.in" rel="nofollow noopener" class="no-underline" target="_blank">
-            <h3 class="block-heading">Relax a little vscode extension</h3>
-          </a>
-          <br />
-          <p class="block-para">
-            this extension provides tools to relax like giving reminders to look somewhere else, drink water, walk or do
-            some
-            lunges. comes with lot of configurations to control time of reminder, interval, water drinking intervals and
-            more.
-          </p>
-        </div>
-      </section>
-
-      <section class="block block-left">
-        <div class="block-content-left">
-          <a href="https://mikr13.github.io/javascript-explorer/" rel="nofollow noopener" class="no-underline"
-            target="_blank">
-            <h3 class="block-heading">Javascript explorer</h3>
-          </a>
-          <br />
-          <p class="block-para">
-            A resource to help developers figure out what JavaScript methods would be best to use at any given time.
-          </p>
-        </div>
-        <br />
-        <div class="block-img">
-          <img src="./img/illustrations/paperwork.svg" alt="" />
-        </div>
-      </section>
-
-      <section class="block">
-        <div class="block-img">
-          <img src="./img/illustrations/consulting.svg" alt="" />
-        </div>
-        <br />
-        <div class="block-content-right">
-          <a href="https://mikr13.github.io/vue-horizontal-list-autoscroll/" rel="nofollow noopener"
-            class="no-underline" target="_blank">
-            <h3 class="block-heading">Vue.js horizontal list auto-scroll</h3>
-          </a>
-          <br />
-          <p class="block-para">
-            A pure vue horizontal list implementation with minimal dependencies, ssr support, mobile friendly, touch
-            friendly and
-            responsive now with auto scroll.
-          </p>
-        </div>
-      </section>
-
-      <section class="block block-left">
-        <div class="block-content-left">
-          <a href="https://github.com/dabasajay/Image-Caption-Generator" rel="nofollow noopener" class="no-underline"
-            target="_blank">
-            <h3 class="block-heading">Image Caption Generator</h3>
-          </a>
-          <br />
-          <p class="block-para">
-            A neural network to generate captions for an image using CNN and RNN with BEAM Search.
-          </p>
-        </div>
-        <br />
-        <div class="block-img">
-          <img src="./img/illustrations/paperwork.svg" alt="" />
-        </div>
-      </section>
-    </div>
-
-    <!-- Showcase Section Ends -->
-
-    <!-- Who is this for Section -->
-    <div id="technologies">
-      <div class="who-is-this">
-        <h2>Technologies</h2>
-        <br />
-        <p>
-          We follow a stringent philosophy for selecting technologies for each
-          project, prioritizing the following criteria:
-        </p>
-        <ul>
-          <li>
-            <strong>Security:</strong> Ensuring that our solutions are robust
-            and protect sensitive data.
-          </li>
-          <li>
-            <strong>Scalability:</strong> Implementing technologies that can
-            handle growth and changing demands.
-          </li>
-          <li>
-            <strong>Hiring:</strong> Choosing technologies that have a diverse
-            and expansive talent pool for support and development, making it
-            easy to scale your team.
-          </li>
-          <li>
-            <strong>Reliability:</strong> Utilizing technologies that have a
-            track record of stability and uptime to ensure a seamless user
-            experience.
-          </li>
+      <nav class="nav-div">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#showcase">Our Showcase</a></li>
+          <li><a class="nav-link" href="#technologies">Technologies</a></li>
+          <li><a class="nav-link" href="#contact">Contact us</a></li>
         </ul>
+      </nav>
 
-        <p>
-          We utilize a wide range of technologies, including React, Node.js,
-          Python, Django, GraphQL, Postgres, MySQL, Redis, DynamoDB, React
-          Native, TypeScript, AWS Cloud, GCP Cloud, Docker, and many others.
-          We select technologies based on the project's specific needs and
-          requirements, ensuring that we deliver a tailored solution for each
-          client.
-        </p>
+      <div class="menu">
+        <img src="./img/icons/menu.svg" alt="" class="menu-icon" id="menu" />
       </div>
-    </div>
+    </header>
 
-    <!-- Who is this for Section -->
+    <!-- Navigation Bar Ends -->
 
-    <!-- Testimonial Slider -->
-    <!-- <div id="review">
+    <!-- Whole Content Of Website -->
+    <div class="content" id="content">
+      <!-- Main Section -->
+
+      <main id="main">
+        <div class="main-img">
+          <img
+            id="hero-image"
+            src="./img/illustrations/hero-image.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="main-content">
+          <h1>
+            We will help <br />
+            you to build <br />
+            your business.
+          </h1>
+          <p>From idea to execution, we're with you.</p>
+          <div class="btn-grp">
+            <a class="primary-btn" href="#contact">Contact us</a>
+            <a class="secondary-btn" href="#services">Know More</a>
+          </div>
+        </div>
+      </main>
+
+      <div id="services">
+        <section class="block block-left">
+          <div class="block-content-left">
+            <h3 class="block-heading">Web app development</h3>
+            <br />
+            <p class="block-para">
+              We use top technologies to create a high-performing website for
+              your product. Our team provides frequent demos, enabling us to
+              swiftly incorporate your feedback and iterate. This guarantees a
+              customized product that meets your requirements
+            </p>
+          </div>
+          <br />
+          <div class="block-img">
+            <img src="./img/illustrations/video_call.svg" alt="" />
+          </div>
+        </section>
+
+        <section class="block">
+          <div class="block-img">
+            <img src="./img/illustrations/invest.svg" alt="" />
+          </div>
+          <br />
+          <div class="block-content-right">
+            <h3 class="block-heading">Mobile app development</h3>
+            <br />
+            <p class="block-para">
+              With our expertise in native and cross-platform development, we
+              create user-friendly apps that delight your customers. Let us
+              bring your vision to life with our mobile app development services
+            </p>
+          </div>
+        </section>
+
+        <section class="block block-left">
+          <div class="block-content-left">
+            <h3 class="block-heading">API development</h3>
+            <br />
+            <p class="block-para">
+              We specialize in developing robust and reliable APIs for
+              businesses of all sizes. Let us help you create a secure and
+              scalable API tailored to your business needs.
+            </p>
+          </div>
+          <br />
+          <div class="block-img">
+            <img src="./img/illustrations/video_call.svg" alt="" />
+          </div>
+        </section>
+
+        <div id="showcase" class="breaker">
+          <h2>Our Showcase</h2>
+          <br />
+          <p>A Selection of Our Finest Work</p>
+        </div>
+
+        <section class="block block-left">
+          <div class="block-content-left">
+            <a
+              href="https://opendevs.in"
+              rel="nofollow noopener"
+              class="project-link"
+              target="_blank"
+            >
+              <h3 class="block-heading">opendevs</h3>
+            </a>
+            <br />
+            <p class="block-para">
+              opendevs is your one stop solution to excel in the latest, most
+              demanding web technologies and be an industry-ready programmer. At
+              opendevs, you learn from a well-crafted & structured curriculum,
+              practice problems to strengthen your coding skills, interview with
+              people from top-notch companies, get premium support from TAs and
+              1:1 mentorship.
+            </p>
+          </div>
+          <br />
+          <div class="block-img">
+            <img
+              src="./img/illustrations/paperwork.svg"
+              alt="opendevs project image"
+            />
+          </div>
+        </section>
+
+        <section class="block">
+          <div class="block-img">
+            <img src="./img/illustrations/consulting.svg" alt="" />
+          </div>
+          <br />
+          <div class="block-content-right">
+            <a
+              href="https://marketplace.visualstudio.com/items?itemName=open-devs.relax-a-little"
+              rel="nofollow noopener"
+              class="project-link"
+              target="_blank"
+            >
+              <h3 class="block-heading">Relax a little vscode extension</h3>
+            </a>
+            <br />
+            <p class="block-para">
+              this extension provides tools to relax like giving reminders to
+              look somewhere else, drink water, walk or do some lunges. comes
+              with lot of configurations to control time of reminder, interval,
+              water drinking intervals and more.
+            </p>
+          </div>
+        </section>
+
+        <section class="block block-left">
+          <div class="block-content-left">
+            <a
+              href="https://github.com/dabasajay/Image-Caption-Generator"
+              rel="nofollow noopener"
+              class="project-link"
+              target="_blank"
+            >
+              <h3 class="block-heading">Image Caption Generator</h3>
+            </a>
+            <br />
+            <p class="block-para">
+              A neural network to generate captions for an image using CNN and
+              RNN with BEAM Search.
+            </p>
+          </div>
+          <br />
+          <div class="block-img">
+            <img src="./img/illustrations/paperwork.svg" alt="" />
+          </div>
+        </section>
+
+        <section class="block">
+          <div class="block-img">
+            <img src="./img/illustrations/consulting.svg" alt="" />
+          </div>
+          <br />
+          <div class="block-content-right">
+            <a
+              href="https://mikr13.github.io/vue-horizontal-list-autoscroll/"
+              rel="nofollow noopener"
+              class="project-link"
+              target="_blank"
+            >
+              <h3 class="block-heading">Vue.js horizontal list auto-scroll</h3>
+            </a>
+            <br />
+            <p class="block-para">
+              A pure vue horizontal list implementation with minimal
+              dependencies, ssr support, mobile friendly, touch friendly and
+              responsive now with auto scroll.
+            </p>
+          </div>
+        </section>
+
+        <section class="block block-left">
+          <div class="block-content-left">
+            <a
+              href="https://mikr13.github.io/javascript-explorer/"
+              rel="nofollow noopener"
+              class="project-link"
+              target="_blank"
+            >
+              <h3 class="block-heading">Javascript explorer</h3>
+            </a>
+            <br />
+            <p class="block-para">
+              A resource to help developers figure out what JavaScript methods
+              would be best to use at any given time.
+            </p>
+          </div>
+          <br />
+          <div class="block-img">
+            <img src="./img/illustrations/paperwork.svg" alt="" />
+          </div>
+        </section>
+      </div>
+
+      <!-- Showcase Section Ends -->
+
+      <!-- Who is this for Section -->
+      <div id="technologies">
+        <div class="who-is-this">
+          <h2>Technologies</h2>
+          <br />
+          <p>
+            We follow a stringent philosophy for selecting technologies for each
+            project, prioritizing the following criteria:
+          </p>
+          <ul>
+            <li>
+              <strong>Security:</strong> Ensuring that our solutions are robust
+              and protect sensitive data.
+            </li>
+            <li>
+              <strong>Scalability:</strong> Implementing technologies that can
+              handle growth and changing demands.
+            </li>
+            <li>
+              <strong>Hiring:</strong> Choosing technologies that have a diverse
+              and expansive talent pool for support and development, making it
+              easy to scale your team.
+            </li>
+            <li>
+              <strong>Reliability:</strong> Utilizing technologies that have a
+              track record of stability and uptime to ensure a seamless user
+              experience.
+            </li>
+          </ul>
+
+          <p>
+            We utilize a wide range of technologies, including React, Node.js,
+            Python, Django, GraphQL, Postgres, MySQL, Redis, DynamoDB, React
+            Native, TypeScript, AWS Cloud, GCP Cloud, Docker, and many others.
+            We select technologies based on the project's specific needs and
+            requirements, ensuring that we deliver a tailored solution for each
+            client.
+          </p>
+        </div>
+      </div>
+
+      <!-- Who is this for Section -->
+
+      <!-- Testimonial Slider -->
+      <!-- <div id="review">
         <section class="slider">
           <div class="slider-item">
             <div class="slider-img-div">
@@ -368,23 +475,28 @@
           </div>
         </section>
       </div> -->
-  </div>
+    </div>
 
-  <div id="contact" class="call-for">
-    <h2>Interested? Let's talk</h2>
-    <br />
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfuSsDiS0CTETm4fBcBv-n4KnOnP6p3m09__pedYiP1TPq5Zg/viewform?embedded=true"
-      width="100%" style="max-width: 640px" height="1132" frameborder="0" marginheight="0"
-      marginwidth="0">Loading…</iframe>
-  </div>
+    <div id="contact" class="call-for">
+      <h2>Interested? Let's talk</h2>
+      <br />
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfuSsDiS0CTETm4fBcBv-n4KnOnP6p3m09__pedYiP1TPq5Zg/viewform?embedded=true"
+        width="100%"
+        style="max-width: 640px"
+        height="1132"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      >
+    </div>
 
-  <!-- <script
+    <!-- <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script> -->
-  <!-- Linking Custom Javascript -->
-  <script src="./script.js"></script>
-</body>
-
+    <!-- Linking Custom Javascript -->
+    <script src="./script.js"></script>
+  </body>
 </html>
